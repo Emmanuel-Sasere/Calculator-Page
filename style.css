@@ -30,6 +30,8 @@
 
 }
 
+/* ================= CALCULATOR BUTTON ================= */
+
 .calculator form .input {
     border: 0;
     width: 70px;
@@ -53,6 +55,21 @@
     cursor: pointer;
 }
 
+.equal {
+    background-color: #28AB9F;
+    border: 0;
+    width: 145px;
+    height: 80px;
+    color: white;
+    outline: 0;
+    margin: 1px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 0 0 5px 0;
+}
+
+/* =============== CALCULATOR SCREEN ================= */
+
 form .display {
     display: flex;
     justify-content: flex-end;
@@ -75,15 +92,3 @@ form .display input {
     cursor: pointer;
 } 
 
-.equal {
-    background-color: #28AB9F;
-    border: 0;
-    width: 145px;
-    height: 80px;
-    color: white;
-    outline: 0;
-    margin: 1px;
-    font-size: 20px;
-    cursor: pointer;
-    border-radius: 0 0 5px 0;
-}
